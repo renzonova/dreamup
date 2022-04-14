@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body h1{
+    color: rgb(13, 128, 166);
+}
+fieldset{
+    
+    color: rgb(13, 128, 166);
+}
+header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#A6C5BA;
+
+}
+.header .navegacion .logo{
+    width: 300px;
+    height: 120px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+main img {
+	width: 100%;
+	vertical-align: bottom;
+    
+}
+
+.navegacion{
+    display: flex;
+    
+}
+.header .navegacion .nav-right{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 128, 166);
+}
+.nav-right{
+    
+    right: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 100px;
+    position: absolute;
+    margin-top: 8px;
+    
+
+}
+li{
+    list-style: none;
+    padding: 10px;
+    transition: all 0.9s ease 0s;
+    
+}
+
+li:hover{
+    background-color:azure;
+    border-bottom: solid rgb(13, 128, 166);
+}
+.nav-right-second{
+    position: absolute;
+    display: none;
+    transform: translateY(15px);
+    
+
+
+}
+.nav-right-second>li {
+    border-bottom: solid 5px rgb(13, 128, 166);
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+    transform: translateX(-10px);
+}
+.nav-right-second>li:hover{
+    background-color: white;
+    
+}
+.Servicio:hover >.nav-right-second{
+    display: block;
+}
+
+
+/*footer*/
+
+footer{
+    color: black;
+    background-color: #A6C5BA;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.footer-contact-title{
+ margin-left: 150px;
+
+}
+
+.footer-contact-p{
+ margin-left: 20px;
+ display: grid;
+ grid-template-columns: 1fr 4fr;
+ padding-top: 20px;
+ font-size: 20px;
+}
+.Siguenos>h3{
+    margin-left: 30px;
+}
+
+.icons>i{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+section {
+    color: rgb(13, 128, 166);
+	width: 100%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+section figure {
+	width: 40%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(13, 128, 166);
+}
+section figure img {
+	width: 90%;
+    height: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+
+/*pagina nosotros*/
+
+ .nosotros1  {
+    width: 20%;
+    color: rgb(13, 128, 166);
+    display: block;
+}
+.nosotros2  {
+    width: 80%;
+    color: rgb(13, 128, 166);
+    display: flex;
+}
